@@ -1,0 +1,23 @@
+{
+  "name": "odin-resturant-page",
+  "version": "1.0.0",
+  "description": "My Resturant Page Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torres2235/odin-Resturant-Page.git"
+  },
+  "author": "Joshua Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torres2235/odin-Resturant-Page/issues"
+  },
+  "homepage": "https://github.com/torres2235/odin-Resturant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
