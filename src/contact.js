@@ -1,7 +1,4 @@
 export default function contact(content) {
-    while (content.firstChild) {
-        content.removeChild(content.lastChild);
-    };
 
     const heading = document.createElement("h1");
     heading.innerText = "Contact Us";

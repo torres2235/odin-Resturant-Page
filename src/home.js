@@ -1,9 +1,5 @@
 export default function home(content) {
-
-    while (content.firstChild) {
-        content.removeChild(content.lastChild);
-    };
-
+    
     const restaurant = document.createElement("h1");
     restaurant.innerText = "Restaurant name";
     content.appendChild(restaurant);
