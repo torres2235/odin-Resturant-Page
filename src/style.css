@@ -3,13 +3,19 @@
     margin: 0px;
 }
 
+body {
+    background: url('./bg.jpeg');
+    color: #fffbeb;
+}
+
 nav {
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: end;
     gap: 40px;
-    margin-bottom: 20px;
+
+    background: #422006;
 }
 
 button {
@@ -20,6 +26,19 @@ button {
 .homeContainer,
 .menuContainer,
 .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #a1620760;
+
+    width: 60%;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#content {
     display: flex;
     flex-direction: column;
     justify-content: center;

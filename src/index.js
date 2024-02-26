@@ -1,8 +1,9 @@
 import _ from 'lodash';
-import home from './/home.js';
+import home from './home.js';
 import menu from './menu.js';
 import contact from './contact.js';
 import './style.css';
+import bg from "./bg.jpeg";
 
 const content = document.getElementById("content");
 const homeBtn = document.getElementById("home");
