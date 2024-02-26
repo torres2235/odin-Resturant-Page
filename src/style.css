@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+}
+
+.homeContainer,
+.menuContainer,
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

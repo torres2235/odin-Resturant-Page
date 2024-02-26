@@ -1,15 +1,17 @@
 export default function home(content) {
-    
+    const homeContainer = document.createElement("div");
+    homeContainer.classList.add("homeContainer");
+
     const restaurant = document.createElement("h1");
     restaurant.innerText = "Restaurant name";
-    content.appendChild(restaurant);
+    homeContainer.appendChild(restaurant);
 
     const intro = document.createElement("div");
     const info = document.createElement("div");
     info.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima laboriosam odit, rem beatae nulla? Earum sunt facilis minima iusto cum rerum ipsum eligendi ducimus sapiente illum sequi illo, ipsam recusandae dignissimos nostrum tenetur adipisci accusamus reprehenderit. Esse nulla fuga quidem labore suscipit quod ea, modi molestiae animi exercitationem praesentium?";
     const tag = document.createElement("h2");
     tag.innerText = "- stuff";
-    content.appendChild(intro);
+    homeContainer.appendChild(intro);
     intro.appendChild(info);
     intro.appendChild(tag);
 
@@ -31,7 +33,7 @@ export default function home(content) {
     saturday.innerText = "Saturday: 10AM - 9PM";
     const sunday = document.createElement("li");
     sunday.innerText = "Sunday: 8AM - 6PM";
-    content.appendChild(hours);
+    homeContainer.appendChild(hours);
     hours.appendChild(h);
     hours.appendChild(hoursList)
     hoursList.appendChild(monday);
@@ -47,10 +49,9 @@ export default function home(content) {
     l.innerText = "Location";
     const a = document.createElement("div");
     a.innerText = "123456 Address Place, 98765 Town, State";
-    content.appendChild(address);
+    homeContainer.appendChild(address);
     address.appendChild(l);
     address.appendChild(a);
 
-    return content;
+    content.appendChild(homeContainer);
 };
-
